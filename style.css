@@ -7,5 +7,29 @@ audio{
 }
 
 ul{
-	display:inline-block;
+	
+	float:right;
+	margin-right:10%;
+}
+
+#logo{
+	width:150px;
+}
+
+li{
+display:inline-block;
+	float:left;
+	margin-left:10px;}
+
+#epic{
+
+	margin-left:35%;
+	width:500px;
+	height:500px;
+}
+h1{
+
+position:absolute;
+
+top:0px;	margin-left:35%
 }
