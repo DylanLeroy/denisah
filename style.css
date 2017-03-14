@@ -1,4 +1,7 @@
-﻿body{
+﻿*{
+	width:100% auto;
+}
+body{
 	background-color:skyblue;
 }
 
@@ -14,6 +17,8 @@ ul{
 
 #logo{
 	width:150px;
+
+	
 }
 
 li{
@@ -21,15 +26,67 @@ display:inline-block;
 	float:left;
 	margin-left:10px;}
 
-#epic{
+#epic1, #epic2, #epic3, #epic4{
 
-	margin-left:35%;
-	width:500px;
-	height:500px;
-}
+	margin-left: 15%;
+    width: 300px;
+    margin-top: 50px;}
 h1{
 
 position:absolute;
 
-top:0px;	margin-left:35%
+top:0px;
+}
+
+
+ .spinEffect{
+        -webkit-animation: spin 0.5s 1 linear;
+    }
+
+    @-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+    }
+    
+#formu{
+	    margin-left: 53%;
+    position: absolute;
+    margin-top:-430px;
+    width:450px;
+}
+
+#prenom, #date, #mes, #envoi{
+	float:left;
+}
+#nom{
+	float:right;
+}
+#ville{
+	float:right;
+	margin-left:5%;
+}
+#mail{
+	float: left;
+    left: 0px;
+    margin-left: -32%;
+    margin-top:10%;
+}
+#photo{
+float:right;
+}
+
+.form{
+	margin-top:	3%;
+}
+@media screen and (min-width: 0px) and (max-width:360px){
+		
+	#logo{
+	margin-top:50px;
+	}
+}
+@media screen and (min-width: 361px){
+	h1{
+		margin-left:35%;
+}
+		
 }

@@ -4,14 +4,28 @@
             audioElement.setAttribute('src', 'ah.mp3');
             $.get();
             elementaudio = document.getElementById("kohlanta");
-			elementaudio.volume=0.1;
-			audioElement.volume=1;
+			elementaudio.volume=0.3;
 			
 			
             $('#logo').click(function() {
-                audioElement.play();
+            	setTimeout(function(){audioElement.play()},0);
+    			var $d1 = $("#logo");
+    			$d1.removeClass("spinEffect");
+   				setTimeout(function(){$d1.addClass("spinEffect")},0);
             });
-  			$("#epic").click(function() {
-  				document.getElementById("epic").play();
+  			$("#epic1").click(function() {
+  				document.getElementById("epic1").play();
   			});
+  			$("#epic2").click(function() {
+  				document.getElementById("epic2").play();
+  			});
+
+			$("#epic3").click(function() {
+  				document.getElementById("epic3").play();
+  			});
+
+			$("#epic4").click(function() {
+  				document.getElementById("epic4").play();
+  			});
+
         });
